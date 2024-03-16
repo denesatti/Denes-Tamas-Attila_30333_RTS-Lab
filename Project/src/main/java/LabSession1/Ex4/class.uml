@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-480.0" y="-595.0">java.util.Observer</node>
+    <node x="-468.125" y="-516.0">java.util.Observable</node>
+    <node x="-611.4956896551724" y="-516.0">LabSession1.Ex4.Window</node>
+    <node x="-906.0" y="-280.0">LabSession1.Ex4.Main</node>
+    <node x="-323.125" y="-516.0">java.lang.Runnable</node>
+    <node x="-438.625" y="-435.0">LabSession1.Ex4.Fir</node>
+    <node x="-753.0" y="-595.0">java.util.ArrayList</node>
+    <node x="-554.125" y="-354.0">LabSession1.Ex4.ThreadController</node>
+    <node x="-596.0" y="-595.0">javax.swing.JFrame</node>
+    <node x="-906.0" y="-595.0">javax.swing.JProgressBar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="LabSession1.Ex4.Window" target="javax.swing.JProgressBar" relationship="TO_MANY">
+      <point x="-35.0" y="-14.5" />
+      <point x="-593.9956896551724" y="-536.0" />
+      <point x="-717.3448275862069" y="-536.0" />
+      <point x="-717.3448275862069" y="-546.0" />
+      <point x="-839.5" y="-546.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="LabSession1.Ex4.Window" target="java.util.ArrayList" relationship="TO_ONE">
+      <point x="-35.0" y="-14.5" />
+      <point x="-593.9956896551724" y="-536.0" />
+      <point x="-717.3448275862069" y="-536.0" />
+      <point x="-717.3448275862069" y="-546.0" />
+      <point x="-684.5" y="-546.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.util.Observable" target="java.util.Observer" relationship="TO_MANY">
+      <point x="0.0" y="-14.5" />
+      <point x="-405.625" y="-536.0" />
+      <point x="-398.25" y="-536.0" />
+      <point x="27.25" y="14.5" />
+    </edge>
+    <edge source="LabSession1.Ex4.Window" target="java.util.Observer" relationship="REALIZATION">
+      <point x="35.0" y="-14.5" />
+      <point x="-523.9956896551724" y="-536.0" />
+      <point x="-452.75" y="-536.0" />
+      <point x="-27.25" y="14.5" />
+    </edge>
+    <edge source="LabSession1.Ex4.Window" target="javax.swing.JFrame" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-558.9956896551724" y="-536.0" />
+      <point x="-548.0" y="-536.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="LabSession1.Ex4.Main" target="LabSession1.Ex4.Fir" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="LabSession1.Ex4.ThreadController" target="LabSession1.Ex4.Fir" relationship="TO_ONE">
+      <point x="0.0" y="-14.5" />
+      <point x="-473.125" y="-380.0" />
+      <point x="-405.625" y="-380.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="LabSession1.Ex4.Fir" target="LabSession1.Ex4.Window" relationship="TO_ONE">
+      <point x="-22.0" y="-14.5" />
+      <point x="-427.625" y="-461.0" />
+      <point x="-558.9956896551724" y="-461.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="LabSession1.Ex4.Fir" target="java.lang.Runnable" relationship="REALIZATION">
+      <point x="22.0" y="-14.5" />
+      <point x="-383.625" y="-461.0" />
+      <point x="-267.125" y="-461.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="LabSession1.Ex4.ThreadController" target="LabSession1.Ex4.Window" relationship="TO_ONE">
+      <point x="0.0" y="-14.5" />
+      <point x="-473.125" y="-380.0" />
+      <point x="-558.9956896551724" y="-380.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="LabSession1.Ex4.Main" target="LabSession1.Ex4.Window" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="LabSession1.Ex4.Fir" target="java.util.Observable" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="-548.5" y="-413.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
